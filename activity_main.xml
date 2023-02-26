@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/question_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="What is the capital of India?" />
+
+    <RadioGroup
+        android:id="@+id/option_radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/option_a_radio_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="New Delhi" />
+
+        <RadioButton
+            android:id="@+id/option_b_radio_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mumbai" />
+
+        <RadioButton
+            android:id="@+id/option_c_radio_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kolkata" />
+
+        <RadioButton
+            android:id="@+id/option_d_radio_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Chennai" />
+    </RadioGroup>
+</LinearLayout>
